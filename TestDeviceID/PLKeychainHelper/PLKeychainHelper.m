@@ -194,8 +194,7 @@
         
         if (deviceID && deviceID.length > 0) {
             deviceID = [deviceID pl_md5];
-            PLLog(@"------------------------------------------- \
-                  advertisingIdentifier \n%@\n", deviceID);
+            PLLog(@"-------------------------------------------  advertisingIdentifier \n%@\n", deviceID);
             return deviceID;
         }
     } else {
@@ -203,8 +202,7 @@
         
         if (deviceID && deviceID.length > 0) {
             deviceID = [deviceID pl_md5];
-            PLLog(@"------------------------------------------- uuid\n\
-                  %@\n", deviceID);
+            PLLog(@"------------------------------------------- uuid %@\n", deviceID);
             return deviceID;
         }
     }
