@@ -23,5 +23,5 @@
 2. 用户未开启，或者APP未接入广告，则使用系统生成UUID
 
 流程图如下：
-[获取DeviceID逻辑流程图](https://github.com/loupman/PLKeychainHelper/blob/master/fetch_device_id.png?raw=true)
-[生成DeviceID逻辑流程图](https://github.com/loupman/PLKeychainHelper/blob/master/generate_device_id.png?raw=true)
+![获取DeviceID逻辑流程图](https://github.com/loupman/PLKeychainHelper/blob/master/fetch_device_id.png?raw=true)
+![生成DeviceID逻辑流程图](https://github.com/loupman/PLKeychainHelper/blob/master/generate_device_id.png?raw=true)
